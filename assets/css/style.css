@@ -15,9 +15,10 @@ text-transform: uppercase;
 letter-spacing: 4px;
 color: #000000;
 }
-#logo {
+#fuji a {
     float: left;
-    font-size: 250%;
+    font-size: 80%;
+    text-decoration: none;
 }
 #menu li {
     float: right;
@@ -31,7 +32,7 @@ color: #000000;
     text-decoration: none;
     color: inherit;
 }
-#menu, #logo {
+#menu {
     line-height: 60px;
 
 }
@@ -41,4 +42,14 @@ color: #000000;
 .active {
     border-bottom: 1px solid #0000ff;
 
+}
+#main-image {
+    background: url('../images/kei.jpg');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+#main-image {
+    border: 1px solid #000000;
 }
