@@ -26,5 +26,19 @@ color: #000000;
     letter-spacing: 4px;
     list-style-type: none;
     margin-right: 25px;
-    -moz-transform: rotate(180deg);
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu, #logo {
+    line-height: 60px;
+
+}
+#menu a:hover {
+    border-bottom: 1px solid #0000ff;
+}
+.active {
+    border-bottom: 1px solid #0000ff;
+
 }
