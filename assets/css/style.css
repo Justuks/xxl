@@ -19,6 +19,12 @@ color: #000000;
     float: left;
     font-size: 250%;
 }
-#menu {
+#menu li {
     float: right;
+    font-size: 120%;
+    color: #696969;
+    letter-spacing: 4px;
+    list-style-type: none;
+    margin-right: 25px;
+    -moz-transform: rotate(180deg);
 }
