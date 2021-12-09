@@ -6,50 +6,67 @@ padding: 0;
 border: none;}
 body {
     font-family: Lato, sans-serif;
-    font-weight: bolder;
-    color: #696969;
-}
-h1, h2 {
-font-family: Lato, sans-serif;
-text-transform: uppercase;
-letter-spacing: 4px;
-color: #000000;
-}
-#fuji a {
-    float: left;
-    font-size: 80%;
-    text-decoration: none;
-}
-#menu li {
-    float: right;
-    font-size: 120%;
-    color: #696969;
-    letter-spacing: 4px;
-    list-style-type: none;
-    margin-right: 25px;
-}
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-#menu {
-    line-height: 60px;
+    }
+    header {
+        letter-spacing: 2px;
+        color: #000000;
+        text-align: center;
+        font-weight: 800;
+        background-color: red;
+        font-style: italic;
+    }
+    #nav {
+        text-transform: uppercase;
+        color: #696969;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 15px;
+        float: right;
+        font-style: normal;
+        font-weight: bold;
+        border: red solid 1px;
+    }
+    #nav > a {
+        text-decoration: none;
+        margin-right: 40px;
+    }
+    #nav >a:hover {
+        color: #000000;
+    }
+    
+    #first-section {
+        background-image: url('../images/image4.jpg');
+        width: 330px;
+        height: 200px;
+        background-repeat: no-repeat;
+        border: none;
+    }
+    .sections {
+        position: relative;
+    }
+    #second-section {
+        background-image: url('../images/image1.jpg');
+        width: 330px;
+        height: 200px;
+        background-repeat: no-repeat;
+        border: none;
+        position:relative; left: 210px; bottom: 50px;
+    }
+    #third-section {
+        background-image: url('../images/daihatsu.jpg');
+        width: 330px;
+        height: 200px;
+        background-repeat: no-repeat;
+        border: none;
+        position:relative; bottom: 70px;
+    }
+    .first {
+        display: block;
+    }
+    #p {
+        display: inline-block;
+        height: 250px; width: 500px;
+        border: 1px solid black;
+        float: right;
+    }
 
-}
-#menu a:hover {
-    border-bottom: 1px solid #0000ff;
-}
-.active {
-    border-bottom: 1px solid #0000ff;
-
-}
-#main-image {
-    background: url('../images/kei.jpg');
-    height: 500px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-}
-#main-image {
-    border: 1px solid #000000;
-}
