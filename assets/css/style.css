@@ -13,6 +13,16 @@ body {
     background-image: url("../images/interior1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: #f8f6f0;
+    background-color: #000000;
     height: 50vh;
+    position:relative
+}
+#text {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    color: #f8f6f0;
+    font-size: x-large;
+
 }
