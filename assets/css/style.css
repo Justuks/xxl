@@ -4,3 +4,15 @@
 margin-top: 0;
 padding: 0;
 border: none;}
+body {
+    background-color: #f1ebe9;
+}
+#head {
+    border: solid black 1px;
+    text-align: center;
+    background-image: url("../images/interior1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f8f6f0;
+    height: 50vh;
+}
