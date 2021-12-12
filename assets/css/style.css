@@ -8,7 +8,7 @@ body {
     background-color: rgb(228, 133, 25);
 }
 #head {
-    height: 40vh;
+    height: 20vh;
     width: 100%;
     background-image: url("../images/forest.jpeg");
     background-repeat: no-repeat;
@@ -34,12 +34,27 @@ li a {
     border: 1px solid black;
     font-size: 25px;
     text-align: justify;
-}
-#antraspar, ul {
-    border:black 1px solid;
-    font-size: 25p;
+    height: 50vh;
+    width: 50%;
 }
 nav {
     height: 30px;
-    
+}
+#ul {
+    background-color: black;
+}
+footer {
+    height: 20vh; width: 100%;
+    background-color: black;
+    margin-bottom: 0;
+    text-align: center;
+}
+span {
+    color: #f5f5f5;
+    font-size: 25;
+}
+footer a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-right: 300px;
 }
