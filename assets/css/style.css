@@ -17,7 +17,14 @@ body {
     color: #f5f5f5;
     font-size: larger;
 }
-h2 {
-    float: right;
-    margin-top: 190px;
+
+#topn {
+    background-color: black;
+    text-align: center;
+}
+.nav {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-right: 150px;
+    font-size: 25px;
 }
