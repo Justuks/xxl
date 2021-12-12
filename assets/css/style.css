@@ -26,4 +26,10 @@ header h1 {
 #topn > a {
     color: #f5f5f5;
     font-size: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+#topn > a:hover {
+    background-color: #f5f5f5;
+    color: black
 }
