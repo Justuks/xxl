@@ -32,11 +32,28 @@ body {
         list-style-type: none;
         font-weight: bold;
         margin-right: 50px;
-        line-height: 30px;
+        line-height: 25px;
     }
     #mymenu a {
         text-decoration: none;
         color: black;
     }
-
+#main {
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 25px;
+    width: 50%;
+}
+#pigeon {
+    height: 50vh;
+    width: 50%;
+    float: right;
+    background-image: url('../images/pigeon.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-top: 100px;
+    border-radius: 50px;
+}
     
