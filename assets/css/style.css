@@ -40,10 +40,12 @@ body {
     }
 #main {
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-right: 5px;
     font-size: 20px;
     line-height: 25px;
-    width: 50%;
+    width: 45%;
+    text-align: justify;
 }
 #pigeon {
     height: 50vh;
@@ -52,8 +54,16 @@ body {
     background-image: url('../images/pigeon.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     vertical-align: top;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 50px;
+}
+#section {
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 200px; 
+    font-size: 20px;
+    text-align: center;
 }
     
