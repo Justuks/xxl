@@ -5,31 +5,8 @@ margin-top: 0;
 padding: 0;
 border: none;}
 body {
-    background-color: rgb(216, 135, 15);
-}
-header {
-    background-image: url('../images/forest.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30vh;
-    background-position: center center;
-}
-header h1 {
-    color: #f5f5f5;
-    font-size: 40px;
-}
-#topn {
-    height: 40px;
     background-color: black;
-    text-align: center;
+    background-image: url('../images/medis.jpeg');
+    color: #f5f5f5
 }
-#topn > a {
-    color: #f5f5f5;
-    font-size: 30px;
-    margin-right: 50px;
-    text-decoration: none;
-}
-#topn > a:hover {
-    background-color: #f5f5f5;
-    color: black
-}
+    
