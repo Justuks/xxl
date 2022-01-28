@@ -1,16 +1,14 @@
 let wind = 0
 let display = document.getElementById('wind-display')
 
+while(wind < 30){
     console.log(wind)
+    wind = wind ++
 function up(){
- while(wind <= 30){
-     console.log(display.innerHTML = wind);
-     wind ++}
-     
- } 
+   console.log(display.innerHTML = wind ++)
 
-
-
+}
+}
 up()
 function down(){
     wind = --wind
