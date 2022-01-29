@@ -14,18 +14,18 @@ function down(){
 }
 down()
 
-let rpm = 600
+let rpm = 500
 let rpmDisplay = document.getElementById('rpm-display')
 
 function high(){
-    if(rpm > 2300)return false
-    console.log(rpmDisplay.innerHTML = rpm += 100)
+    if(rpm === 2400)return false
+    console.log(rpmDisplay.innerHTML  = rpm += 100)
 }
 high()
 
 
 function low(){
-    if(rpm < 600)return false
-     console.log(displayRpm.innerHTML = rpm - 100)
+    if(rpm === 600)return false
+     console.log(rpmDisplay.innerHTML = rpm -= 100)
 }
 lower()
