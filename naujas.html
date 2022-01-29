@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="naujas.css" rel="stylesheets">
+    <link href="naujas.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <h1>NAVAL PARROT</h1>
-    <h2>WELCOME CAPTAIN,<button><h2>PRESS HERE</h2></button> TO BEGIN!</h2>
+    <h2 id="header">WELCOME CAPTAIN,<button id="text-appear"><h2>PRESS HERE</h2></button> TO BEGIN!</h2>
     <div id="screen">
         <span><h3>SET WIND SPEED m/s</h3></span>
         <span><h1 id="wind-display">0</h1></span>
@@ -19,6 +19,18 @@
         <span><h1 id="rpm-display">600</h1></span>
         <button id="rpm-up" onclick="high()"><h3>INCREASE</h3></button>
         <button id="rpm-down" onclick="low()"><h3>DECREACE</h3></button>
+        <div id="fuel-paragraph">
+            <h3>YOUR ESTIMATED FUEL USAGE l/hour:</h3>
+        </div>
+        <div >
+            <h1 id="fuel-gauge">5</h1>
+        </div>
+        <div id="range-paragraph">
+            <h3>YOUR ESTIMATED RANGE nautical miles:</h3>
+        </div>
+        <div id="range-finder">
+            <h1>300</h1>
+        </div>
         
     </div>
     <script src="naujas.js"></script>

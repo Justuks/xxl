@@ -1,3 +1,7 @@
+document.getElementById('text-appear').onclick = function(){
+    document.getElementById('screen').style.visibility = 'visible';
+    document.getElementById('header').innerHTML = 'PLEASE, SET YOUR PARAMETERS AND CHECK THE RESULTS';
+}
 let wind = 0
 let display = document.getElementById('wind-display')
 
@@ -28,4 +32,13 @@ function low(){
     if(rpm === 600)return false
      console.log(rpmDisplay.innerHTML = rpm -= 100)
 }
-lower()
+low()
+
+let fuel = 5
+let windOnFuel = document.getElementById('fuel-gauge')
+function diesel(wind, fuel, windOnfuel){
+    if(wind ++){
+        windOnFuel.innerHTML = fuel + 0.3
+    }
+}
+diesel()
