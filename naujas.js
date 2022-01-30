@@ -4,11 +4,13 @@ document.getElementById('text-appear').onclick = function(){
 }
 let wind = 0
 let display = document.getElementById('wind-display')
-
+let fuel = 5
+let windOnFuel = document.getElementById('fuel-gauge')
 
 function up(){
-    if(wind > 29)return false
-   console.log(display.innerHTML = ++wind)
+    if(wind === 30)return false
+   console.log(display.innerHTML = ++ wind)
+   console.log(windOnFuel.innerHTML = fuel ++)
 }
 up()
 
@@ -34,11 +36,4 @@ function low(){
 }
 low()
 
-let fuel = 5
-let windOnFuel = document.getElementById('fuel-gauge')
-function diesel(wind, fuel, windOnfuel){
-    if(wind ++){
-        windOnFuel.innerHTML = fuel + 0.3
-    }
-}
-diesel()
+
